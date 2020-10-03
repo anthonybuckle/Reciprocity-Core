@@ -83,7 +83,8 @@ Reciprocity Web Wallet Examples
 ![Call Contract](https://github.com/anthonybuckle/Reciprocity-UI/blob/main/shared/img/Web-ContractCall.png)
 
 Reciprocity CLI Examples
-**Escape smart contract parameters with single quotes. For example, 'method()'
+
+* Escape smart contract parameters with single quotes. For example, 'method()'
 
 You can use recipcli.py to manually run commands against your node.
 
