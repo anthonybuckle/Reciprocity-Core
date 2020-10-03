@@ -1,0 +1,18 @@
+version: '2.1'
+
+services:
+  reciprocity:
+    image: reciprocity
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - 8912:8912
+      - 8489:8489
+  reciprocity-ui:
+    image: reciprocity-ui
+    build:
+      context: ./ui
+      dockerfile: Dockerfile
+    ports:
+      - 3000:3000

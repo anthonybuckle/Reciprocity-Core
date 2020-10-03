@@ -1,0 +1,2 @@
+TRANSACTION = 'transaction'
+BLOCK = 'block'
